@@ -4,11 +4,10 @@ import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Component;
 
 @Component
-//@Primary
-public class SnapDragon implements MobileProcessor {
+public class MediaTek implements MobileProcessor{
 
     @Override
     public void process() {
-        System.out.println("World Best CPU");
+        System.out.println("2nd best CPU");
     }
 }

@@ -13,11 +13,11 @@
     <context:component-scan base-package="com.nickmcconnell.springpoc"></context:component-scan>
 
 <!--    <bean id="vehicle" class="com.nickmcconnell.springpoc.Bike"></bean>-->
-    <bean id="tire" class="com.nickmcconnell.springpoc.Tire">
+<!--    <bean id="tire" class="com.nickmcconnell.springpoc.Tire">-->
 <!--        Setter Injection-->
 <!--        <property name="brand" value="MRF"></property>-->
 <!--        Constructor Injection-->
 <!--        <constructor-arg value="good year"></constructor-arg>-->
-    </bean>
+<!--    </bean>-->
 
 </beans>
